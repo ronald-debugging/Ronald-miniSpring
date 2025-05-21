@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <!-- Test Bean -->
+    <bean id="testBean" class="com.minispring.test.bean.TestBean">
+        <property name="name" value="Test Bean"/>
+    </bean>
+    
+    <!-- Bean with constructor parameters -->
+    <bean id="testBeanWithConstructor" class="com.minispring.test.bean.TestBean">
+        <constructor-arg value="Created via constructor"/>
+    </bean>
+    
+    <!-- Bean with initialization and destruction methods -->
+    <bean id="testBeanWithLifecycle" class="com.minispring.test.bean.TestBean"
+          init-method="init" destroy-method="customDestroy">
+        <property name="name" value="Lifecycle Bean"/>
+    </bean>
+    
+    <!-- Test Bean reference -->
+    <bean id="testService" class="com.minispring.test.service.TestService">
+        <property name="testBean" ref="testBean"/>
+        <property name="message" value="Hello, MiniSpring!"/>
+    </bean>
+    
+    <!-- Test initialization and destruction methods -->
+    <bean id="lifecycleBean" class="com.minispring.test.bean.LifecycleBean" 
+          init-method="init" destroy-method="destroy">
+        <property name="name" value="Lifecycle"/>
+    </bean>
+    
+    <!-- Test scope -->
+    <bean id="prototypeBean" class="com.minispring.test.bean.PrototypeBean" scope="prototype">
+        <property name="name" value="Prototype"/>
+    </bean>
+</beans> 

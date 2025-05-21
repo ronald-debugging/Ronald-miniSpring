@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+    <!-- Define Person Bean -->
+    <bean id="person" class="com.minispring.test.bean.Person">
+        <property name="name" value="Zhang San"/>
+        <property name="age" value="30"/>
+        <property name="address" ref="address"/>
+    </bean>
+    
+    <!-- Define Address Bean -->
+    <bean id="address" class="com.minispring.test.bean.Address">
+        <property name="city" value="Beijing"/>
+        <property name="district" value="Chaoyang District"/>
+        <property name="street" value="Jianguo Road"/>
+    </bean>
+</beans> 

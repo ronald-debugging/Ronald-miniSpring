@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.minispring.com/schema/beans"
+       xmlns:context="http://www.minispring.com/schema/context"
+       context:default-lazy-init="true">
+    
+    <!-- Load property file -->
+    <context:property-placeholder location="classpath:application.properties"/>
+    
+    <!-- Component scanning -->
+    <context:component-scan base-package="com.minispring.test.bean"/>
+    
+    <!-- Define Person Bean -->
+    <bean id="person" class="com.minispring.test.bean.Person">
+        <property name="name" value="${person.name}"/>
+        <property name="age" value="${person.age}"/>
+        <property name="address" ref="address"/>
+    </bean>
+    
+    <!-- Define Address Bean -->
+    <bean id="address" class="com.minispring.test.bean.Address">
+        <property name="city" value="${address.city}"/>
+        <property name="district" value="${address.district}"/>
+        <property name="street" value="${address.street}"/>
+    </bean>
+</beans> 
