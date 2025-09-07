@@ -12,6 +12,7 @@
 
 ## 目录树（核心）
 
+```text
 src/
   ├─ main/
   │  ├─ java/
@@ -55,6 +56,7 @@ src/
         ├─ context-namespace.xml
         ├─ spring.xml
         └─ META-INF/
+```
 
 ## 模块简要说明
 
