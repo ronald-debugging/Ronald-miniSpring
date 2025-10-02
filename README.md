@@ -1,3 +1,35 @@
+
+<div align="right">
+  <details>
+    <summary >🌐 Language</summary>
+    <div>
+      <div align="center">
+        <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=en">English</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=zh-CN">简体中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=zh-TW">繁體中文</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=ja">日本語</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=ko">한국어</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=hi">हिन्दी</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=th">ไทย</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=fr">Français</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=de">Deutsch</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=es">Español</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=it">Italiano</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=ru">Русский</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=pt">Português</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=nl">Nederlands</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=pl">Polski</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=ar">العربية</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=fa">فارسی</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=tr">Türkçe</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=vi">Tiếng Việt</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=id">Bahasa Indonesia</a>
+        | <a href="https://openaitx.github.io/view.html?user=ronald-debugging&project=Ronald-miniSpring&lang=as">অসমীয়া</
+      </div>
+    </div>
+  </details>
+</div>
+
 # ronald-miniSpring Framework
 
 A lightweight Spring framework implementation that demonstrates core Spring principles and mechanisms. This project extracts and simplifies Spring's essential features while maintaining its fundamental architecture, making it an excellent learning resource for understanding Spring's internals.
